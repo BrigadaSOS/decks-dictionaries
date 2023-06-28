@@ -3,6 +3,7 @@ name: Crowdin
 on:
   push:
     branches: [ main ]
+    paths: [ "**.csv" ]
 
 jobs:
   synchronize-with-crowdin:
