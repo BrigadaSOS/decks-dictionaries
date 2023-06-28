@@ -1,7 +1,12 @@
 PYTHON = python3
 OUTPUT = output/
 
-.PHONY = n5
+.PHONY = TangoN5 TangoN4
 
-n5:
+make: TangoN5 TangoN4
+
+TangoN5:
 	${PYTHON} build_deck.py tango_n5/ ${OUTPUT}
+
+TangoN4:
+	${PYTHON} build_deck.py tango_n4/ ${OUTPUT}

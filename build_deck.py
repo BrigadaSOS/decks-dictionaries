@@ -8,6 +8,7 @@ import re
 from glob import glob
 
 CONFIG_DECK_NAME = "deck_name"
+CONFIG_VERSION = "version"
 CONFIG_SOURCE_FILE = "source"
 CONFIG_HEADERS = "headers"
 CONFIG_FIELDS = "fields"
@@ -71,4 +72,8 @@ for config_filename in config_filenames:
         package = genanki.Package(deck)
 
         os.makedirs(output_dir, exist_ok=True)
-        package.write_to_file(os.path.join(output_dir, f"{deck_name}.apkg"))
+        package.write_to_file(
+            os.path.join(output_dir, f"{deck_name} - ${config[CONFIG_VERSION]}.apkg")
+        )
+
+        print("Deck built!")

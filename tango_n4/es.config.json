@@ -1,8 +1,8 @@
 {
   "language": "es",
   "version": "v0.1.0",
-  "deck_name": "[BrigadaSOS] Tango N5",
-  "deck_description": "Mazo de Tango N5",
+  "deck_name": "[BrigadaSOS] Tango N4",
+  "deck_description": "Mazo de Tango N4",
   "source": "translation/es.csv",
   "headers": [0, 1, 3, 4],
   "media": "media",
