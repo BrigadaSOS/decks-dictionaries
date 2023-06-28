@@ -73,7 +73,7 @@ for config_filename in config_filenames:
 
         os.makedirs(output_dir, exist_ok=True)
         package.write_to_file(
-            os.path.join(output_dir, f"{deck_name} - ${config[CONFIG_VERSION]}.apkg")
+            os.path.join(output_dir, f"{deck_name}.apkg")
         )
 
         print("Deck built!")
