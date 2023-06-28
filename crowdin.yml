@@ -1,3 +1,13 @@
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+project_identifier: brigadasos
+preserve_hierarchy: true
+
 files:
-  - source: /source/*.csv
-    translation: /translation/%two_letters_code%/%original_file_name%
+  - source: /tango_n5/Tango_N5.en.csv
+    translation: /tango_n5/Tango_N5.%two_letters_code%.%file_extension%
+    scheme: 'source_phrase,none,context,translation,none,labels'
+  - source: /tango_n4/Tango_N4.en.csv
+    translation: /tango_n4/Tango_N4.%two_letters_code%.%file_extension%
+    scheme: 'source_phrase,none,context,translation,none,labels'
+
