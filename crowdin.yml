@@ -1,3 +1,7 @@
 files:
-  - source: /source/*.csv
-    translation: /translation/%two_letters_code%/%original_file_name%
+  - source: /tango_n5/source/*.csv
+    translation: /tango_n5/translation/%two_letters_code%/%file_name% (Crowdin).%file_extension%
+    scheme: 'source_phrase,none,context,translation,none,none,none'
+  - source: /tango_n4/source/*.csv
+    translation: /tango_n4/translation/%two_letters_code%/%file_name% (Crowdin).%file_extension%
+    scheme: 'source_phrase,none,context,translation,none,none,none'
