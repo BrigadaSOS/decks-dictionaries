@@ -72,8 +72,6 @@ for config_filename in config_filenames:
         package = genanki.Package(deck)
 
         os.makedirs(output_dir, exist_ok=True)
-        package.write_to_file(
-            os.path.join(output_dir, f"{deck_name}.apkg")
-        )
+        package.write_to_file(os.path.join(output_dir, f"{deck_name}.apkg"))
 
         print("Deck built!")
