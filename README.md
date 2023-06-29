@@ -16,6 +16,12 @@ Continuación del mazo **Tango N5**, también basado en el libro "JLPT Tango Ser
 
 Descarga: ![Link](https://github.com/BrigadaSOS/decks-dictionaries/releases/latest/download/BrigadaSOS.Tango.N4.apkg)
 
+## Cómo colaborar
+
+Si ha visto una errata o contenido que se podría mejorar, puede utilizar cualqueira de los siguientes medios para contriubir con mejoras al contenido:
+* Mediante [Crowdin](https://crowdin.com/project/brigadasos/es-ES) (Página para la gestión de traducciones)
+* Creando una Pull Request en Github con la siguiente plantilla: [Link]() <TODO: Include Link>
+
 ## Guía de uso
 
 Para más referencias sobre como utilizar Anki o como planificar su estudio con estos mazos, puede consultar las guias en https://brigadasos.xyz/guia-principal/vocabulario-kanji
